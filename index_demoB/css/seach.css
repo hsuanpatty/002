@@ -223,9 +223,18 @@ input[type=checkbox] {
   display: block;
 }
 
+@media (max-width: 991.98px) {  
+  .checkLabel-box {
+    padding-top: 25px;
+  }
+}
 
+@media (max-width: 767.98px) {  
+  .checkLabel-box {
+    padding-top: 5px;
+  }
+}
 
-/*  */
 
 /* 按鈕 */
 .button-grid {
@@ -330,7 +339,7 @@ input[type=checkbox] {
     font-size: 20px;
     width: 100%;
     border-radius: 0;
-    padding-bottom: 0;
+    padding-bottom: 10px;
   }
 
   .primary-w36 { width: 36%; }
@@ -343,10 +352,16 @@ input[type=checkbox] {
       width: 1300px;
       max-width: 86%;
     }
+    
     .button-1 { 
       order: 4;
       display: none;
     }
+
+    .button-grid .button--white {
+      padding-bottom: 0;
+    }
+
 
     .button-grid .button--primary {
       background-color: var(--bs-search-red2);
@@ -599,7 +614,7 @@ input[type=checkbox] {
     appearance: none;
     cursor: pointer;
 }
-
+ 
 .go-box img, .back-box img {
     position: absolute;
     width: 15px;
