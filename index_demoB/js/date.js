@@ -66,3 +66,8 @@ function initDateRange(inputId) {
     // 初始化更新一次月份
     setTimeout(() => updateMonthTitle(pickerInstance), 10);
 }
+
+
+$(function () {
+    $('.only-apply').prop('checked', true);
+});
