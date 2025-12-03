@@ -578,7 +578,7 @@ input[type=checkbox] {
     .sass-property-search {
         width: 100%;
         max-width: 100%;
-        padding: 10px;       /* 調整內距 */
+        padding: 10px 10px 20px;       /* 調整內距 */
         margin: 0;           /* 取消左右 margin */
         box-sizing: border-box; /* 包含 padding */
     }
