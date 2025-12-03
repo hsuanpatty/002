@@ -283,6 +283,7 @@ input[type=checkbox] {
     border-right: 1px solid #ffffff;
     letter-spacing: 0.05rem;
     white-space:nowrap;
+      transition: var(--transition);
     font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, MicrosoftJhengHeiBoldFix, 微軟正黑體, Microsoft JhengHei;
 
 }
