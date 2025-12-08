@@ -1,0 +1,352 @@
+.px-2 {
+    padding: 0 10px;
+}
+
+/*  列表  */
+#content .TripMain-navigate {
+    width: 86vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 6px;
+    text-align: left;
+}
+
+#content .TripMain-navigate a:after {
+    content: "\f105";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 11px;
+    font-weight: 900;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#content .TripMain-navigate a:last-of-type:after {
+    content: "";
+}
+
+
+#content {
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 10px;
+    padding-top: 70px;
+}
+.contact_us_box {
+    --bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x) * -0.5);
+	margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.contact_us_border {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ffffff 0%, #efefef 100%);
+    border-left: 3px solid rgb(216, 78, 78);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.contact_us_box_py {
+   padding: 30px 0  50px; 
+}
+
+.dreamit-section-title {
+    text-align: center;
+}
+
+.dreamit-section-title h4 {
+    font-size: 14px;
+    color: #d84e4e;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.dreamit-section-title h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #303030;
+    margin: 0 0 20px ;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #303030;
+}
+
+/*   資訊   */
+.contact_us_box_left,
+.contact_us_box_right {
+    flex: 0 0 auto;
+	width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.contact-form-box {
+    padding: 0 15px 0;
+}
+
+.contact_us_img img {
+    width: 100%;
+}
+
+.contact_us_title h5 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 微軟正黑體, Microsoft;
+    color: #b40f0d;
+}
+
+.contact_us_title span{
+    font-size: 14px;
+    color: #b40f0d;
+}
+
+.contact-box-border {
+    border-bottom: 1px solid #b40f0d;
+    margin-bottom: 10px;
+}
+
+.contact_us_img {
+    padding-top: 10px;
+}
+
+.contact_us_title {
+    display: block;
+    padding: 20px 0 0 10px;
+}
+
+
+/*info icon box*/
+.info-icon {
+    float: left;
+    margin: 12px 0 18px;
+}
+
+.info-title {
+    overflow: hidden;
+}
+
+.info-title p,
+.info-title a {
+    font-size: 16px;
+    font-family: 微軟正黑體, Microsoft;
+    color: #535353;
+    text-align: left;
+    letter-spacing: 0.01rem;
+    padding: 3px 0 ;
+}
+
+.info-icon i.red-map,
+.info-icon i.blue-fb,
+.info-icon i.green-line{
+    display: inline-block;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background: transparent;
+    transition: .5s;
+    font-style:normal;
+    cursor: pointer;
+}
+
+.info-icon i.red-map {
+    color:  #b40f0d;
+    background-color: transparent;
+    border: 1px solid #b40f0d;
+}
+
+.info-icon i.blue-fb {
+    color:#006FFF;
+    background-color: transparent;
+    border: 1px solid  #006FFF;
+}
+
+.info-icon i.green-line {
+    color:#06c755;
+    background-color: transparent;
+    border: 1px solid  #06c755;
+}
+
+.info-icon i.red-map:hover {
+    transform: rotateY(180deg);
+    background: #b40f0d;
+    color: #fff;
+    border: 1px solid #b40f0d;
+}
+
+.info-icon i.blue-fb:hover {
+    transform: rotateY(180deg);
+    color: #fff;
+    background-color: #006FFF;
+    border: 1px solid #006FFF;
+}
+
+.info-icon i.green-line:hover  {
+    transform: rotateY(180deg);
+    color: #fff;
+    background-color: #06c755;
+    border: 1px solid #06c755;
+}
+
+
+/* @media min-width  */
+@media (min-width: 576px) {
+    .contact_us_box_left,
+    .contact_us_box_right {
+        width: 100%;
+        padding: 20px 15px;
+        margin: auto;
+    }
+
+    .contact_us_border {
+        display: flex;
+    }
+    
+    .contact_us_50 {
+        flex: 0 0 auto;
+        width:50%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact_us_box_left,
+    .contact_us_box_right {
+        width: 85%;
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    #content {
+        padding-top: 150px;
+    }
+
+    .info-title p,
+    .info-title a {
+     font-size: 16.5px;
+    }   
+
+    .contact_us_title h5 {
+        font-size: 18px;
+    }
+
+    .contact_us_border {
+        padding: 20px 10px;
+    }
+
+    .info-icon {
+        margin: 8px 0 18px;
+    }
+
+    .contact_us_box_py {
+        padding: 30px 0; 
+     }
+}
+
+@media (min-width: 992px) { 
+    .contact_us_box_left,
+    .contact_us_box_right {
+        width: 38%;
+        padding: 20px 0;
+        justify-content: left;
+    }
+
+    .contact_us_50 {
+        width:100%;
+    }
+
+    .contact_us_border {
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .contact_us_box_left,
+    .contact_us_box_right {
+        width: 33.3333333%;
+        padding: 20px 0 20px 25px;
+
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * 0.5);
+        margin-left: calc(var(--bs-gutter-x) * -0.5);
+        justify-content: left;
+    }
+
+    .contact_us_50 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact_us_border {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .contact_us_title {
+        padding: 30px 5px 0;
+    }
+
+    .contact_us_pt {
+        padding-top: 10px;
+    }
+
+    .info-title p,
+    .info-title a {
+     font-size: 14px;
+    } 
+    
+}
+
+
+@media (min-width: 1400px) {
+    .contact_us_box {
+        justify-content: space-between;
+    } 
+
+    .contact_us_box_left,
+    .contact_us_box_right {
+        width: 50%;
+        padding: 20px;
+
+        margin-right: calc(var(--bs-gutter-x) * -0.5);
+    }
+
+    .contact_us_50 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin: auto;
+    }
+
+    .contact_us_border {
+        display: flex;
+    }
+
+    .contact_us_title {
+        padding: 6px 5px 0;
+    }
+
+}
