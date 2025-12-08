@@ -563,6 +563,13 @@ input[type=checkbox] {
   width: 100%;
 }
 
+#keyWords input:focus,
+#date-range:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+}
+
 .sass-form-select,
 .sass-form-input{
   padding: 12px 15px;
@@ -762,19 +769,17 @@ input[type=checkbox] {
 }
 
 
-.sass-xl {
-  display: flex;
-  white-space: nowrap;
-  align-items: center;
-}
-
 .sass-sm {
-  display: flex;
-  white-space: nowrap;
-  align-items: center;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
 }
 
 @media (max-width: 1199.98px) {  
+  .sass-xl {
+    display: none;
+  }
+  
   .cr_label {
     display: flex;
     justify-content: center;
@@ -828,23 +833,7 @@ input[type=checkbox] {
    .checkLabel-box {
     padding: 4px 0 2px;
   }
-
-  .sass-xl {
-    display: none;
-  }
-  
 }
-
-@media (min-width: 576px) and (max-width: 1199.98px) {
-  .sass-xl {
-    display: flex !important;
-  }
-
-  .accordion-container {
-    display: none;
-  }
-}
-
 
 @media (min-width: 1200px) { 
     .sass-sm {
