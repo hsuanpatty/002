@@ -77,7 +77,10 @@ $(function () {
 });
 
 
-$(function () {
+// 初始勾選
+$('.only-apply').prop('checked', true);
+
+// RWD resize 時，也強制勾選
+$(window).on('resize', function () {
     $('.only-apply').prop('checked', true);
 });
-
