@@ -326,7 +326,6 @@ input[type=checkbox] {
 .button-grid .button--white{
     font-size: 20px;
     font-weight: 600;
-    text-align: center;
     border-top: 4px solid var(--bs-search-red);
     background-color:white;
     color: var(--bs-search-red);
@@ -810,6 +809,7 @@ input[type=checkbox] {
 
   .button-grid .button--white {
     border-top: 0;
+    display: none;
   }
 }
 
