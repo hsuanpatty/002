@@ -83,3 +83,5 @@ $('.only-apply').prop('checked', true);
 $(window).on('resize', function () {
     $('.only-apply').prop('checked', true);
 });
+
+
