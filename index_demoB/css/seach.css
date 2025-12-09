@@ -331,6 +331,7 @@ input[type=checkbox] {
     color: var(--bs-search-red);
     letter-spacing: 0.05rem;
     white-space:nowrap;
+    text-align: center;
     font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, MicrosoftJhengHeiBoldFix, 微軟正黑體, Microsoft JhengHei;
 }
 
@@ -695,6 +696,10 @@ input[type=checkbox] {
     grid-column: span 1;
   }
 
+  .sass-hd {
+    display: none;
+  }
+
   #search-tool input {
     padding: 18px 15px;
   }
@@ -730,9 +735,6 @@ input[type=checkbox] {
       max-width: 100%;
     }
 
-    .sass-hd {
-      display: none;
-    }
 
 }
 
@@ -808,7 +810,6 @@ input[type=checkbox] {
 
   .button-grid .button--white {
     border-top: 0;
-    display: none;
   }
 }
 
